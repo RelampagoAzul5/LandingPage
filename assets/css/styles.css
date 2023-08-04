@@ -99,7 +99,6 @@ tfoot td, thead th{
 }
 
 .section {
-    min-width: 47vh;
     min-height: 100vh;
 }
 body .full-width{
@@ -416,4 +415,9 @@ body .full-width{
       h6 {
         font-size: 2.8rem;
       }
+}
+@media (max-width:390px){
+    .section{
+        min-width: 47vh
+    }
 }
