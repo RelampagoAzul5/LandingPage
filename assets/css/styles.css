@@ -18,7 +18,7 @@ html{
 
 body{
     font-family:'Open Sans', sans-serif;
-    font-size: 1.6rem;
+    font-size: 2rem;
     color: var(--primary-color);
     line-height: 1.5;
 }
@@ -99,6 +99,7 @@ tfoot td, thead th{
 }
 
 .section {
+    min-width: 47vh;
     min-height: 100vh;
 }
 body .full-width{
@@ -372,7 +373,7 @@ body .full-width{
         width: 3rem;
         height: 3rem;
         text-align: center;
-        padding: 0.5rem;
+        padding: 0.2rem;
         cursor: pointer;
     }
     .close-menu:checked~.menu{
@@ -391,5 +392,28 @@ body .full-width{
     .menu-spacing{
         display: none;
     }
+ 
+    h1 {
+        font-size: 4rem;
+      }
     
+      h2 {
+        font-size: 3.6rem;
+      }
+    
+      h3 {
+        font-size: 3.4rem;
+      }
+    
+      h4 {
+        font-size: 3.2rem;
+      }
+    
+      h5 {
+        font-size: 3rem;
+      }
+    
+      h6 {
+        font-size: 2.8rem;
+      }
 }
